@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Birthday Moments with Background Video</title>
+  <style>
+    /* Make video fill the screen and stay behind everything */
+    #bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100vw;
+      min-height: 100vh;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    /* Style your content on top */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    h2 {
+      margin-top: 50px;
+      text-shadow: 2px 2px 5px #000;
+    }
+
+    img {
+      margin: 20px;
+      width: 200px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #00000088;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #8800cc;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔴 Background video (no sound) -->
+  <video id="bg-video" autoplay muted loop>
+    <source src="video_2025-03-04_22-58-18.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <!-- 🎉 Page Content Over the Video -->
+  <h2>Some Beautiful Memories 💖</h2>
+
+  <img src="IMG-20250424-WA0027.jpg" alt="Memory 1">
+  <img src="IMG-20250728-WA0006.jpg" alt="Memory 2">
+  <img src="IMG-20250424-WA0060.jpg" alt="Memory 3"><br>
+   <center>
+<a href="WhatsApp Video 2025-07-28 at 20.59.43_0393006c.mp4"><h2>Click here Monish</h2></a>
+</center>
+  <button onclick="location.href='page3.html'">🎁 Receive Your Gift</button>
+
+</body>
+</html>
+
